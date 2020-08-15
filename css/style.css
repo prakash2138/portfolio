@@ -1154,3 +1154,19 @@ body.dark .shadow-dark{
 		max-width: 100%;
 	}
 }
+@media (max-width: 465px){
+	.about .about-content .personal-info{
+		-ms-flex: 0 0 100%;
+		flex: 0 0 100%;
+		max-width: 100%;
+	}
+	.about .about-content .personal-info .info-item{
+		-ms-flex: 0 0 100%;
+		flex: 0 0 100%;
+		max-width: 100%;
+	}
+	.about .about-content .personal-info .buttons .btn.hire-me{
+		display: inline-block;
+		margin-top: 10px;
+	}
+}
