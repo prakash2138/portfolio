@@ -208,6 +208,30 @@ input , textarea , select{
 	}
 }
 
+/*Visit counter*/
+
+.counter-container{
+	display: block;
+	/*background-color: red;*/
+	position: relative;
+	top: -40px;
+	padding: 10px
+}
+.counter-container h3{
+	font-size: 23px;
+	color: #302e4d;
+	text-align: center;
+	font-family: 'Rubik', sans-serif;
+	font-weight: 700;
+}
+.counter-container h2{
+	font-size: 30px;
+	color: #504e70;
+	text-align: center;
+	font-family: 'Rubik', sans-serif;
+	font-weight: 400;
+}
+
 /*aside*/
 .aside{
 	width: 270px;
