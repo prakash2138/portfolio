@@ -20,6 +20,10 @@
 	-webkit-transform: translateX(0);
 	transform: translateX(0);
 }
+.style-switcher.close{
+	-webkit-transform: translateX(100%);
+	transform: translateX(100%);
+}
 .style-switcher h5{
 	font-size: 16px;
 	color: #302e4d;
