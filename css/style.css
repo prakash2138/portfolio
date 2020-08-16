@@ -1084,6 +1084,7 @@ body.dark .aside .logo a,
 body.dark .aside .nav li a{
 	color: #ffffff;
 }
+body.dark .counter-container h3,
 body.dark .aside .copyright-text,
 body.dark .contact .contact-form .form-item .form-control,
 body.dark .contact .contact-info-item p,
@@ -1099,6 +1100,7 @@ body.dark .about .about-content .about-text p,
 body.dark .home .intro p{
 	color: #e9e9e9;
 }
+body.dark .counter-container h2,
 body.dark .about .about-content .personal-info .info-item p,
 body.dark .aside,
 body.dark .contact .contact-form .form-item .form-control,
