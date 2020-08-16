@@ -170,3 +170,20 @@ function asideSectionTogglerBtn(){
 		allSection[i].classList.toggle("open");
 	}
 }
+
+// Visit Counter
+
+const counter = document.querySelector(".counter");
+function updateCounter(){
+	fetch("https://api.countapi.xyz/update/myportfolio.com/portfolio/?amount=1")
+	.then(res => res.json())
+	.then(function(data){
+		if(data.value<10){
+			counter.innerHTML = "0"+data.value;
+		}
+		else{
+			counter.innerHTML = data.value;
+		}
+	})
+}
+updateCounter();
