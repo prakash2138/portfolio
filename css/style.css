@@ -1179,6 +1179,10 @@ body.dark .shadow-dark{
 	}
 }
 @media (max-width: 465px){
+	.aside .nav-toggler.open{
+		left: 220px;
+    		top: 10px;
+	}
 	.about .about-content .personal-info{
 		-ms-flex: 0 0 100%;
 		flex: 0 0 100%;
