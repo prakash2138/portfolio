@@ -26,4 +26,19 @@ for(let i=0; i<totalBodySkin; i++){
 
 document.querySelector(".toggle-style-switcher").addEventListener("click" , function(){
 	document.querySelector(".style-switcher").classList.toggle("open");
+	document.querySelector(".style-switcher").classList.remove("close");
+})
+const allSections = document.querySelectorAll(".section"),
+	  totalSections = allSections.length,
+	  asideSec = document.querySelector(".aside");
+
+for(let i=0; i<totalSections; i++){
+	allSections[i].addEventListener("click" , function(){
+		document.querySelector(".style-switcher").classList.add("close");
+		document.querySelector(".style-switcher").classList.remove("open");
+	})
+}
+asideSec.addEventListener("click" , function(){
+	document.querySelector(".style-switcher").classList.add("close");
+	document.querySelector(".style-switcher").classList.remove("open");
 })
