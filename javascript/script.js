@@ -1,9 +1,9 @@
 
 // Preloader
 window.addEventListener("load" , function(){
-	document.querySelector(".preloader").classList.add("opacity-0");
+	document.querySelector(".loader").classList.add("opacity-0");
 	setTimeout(function(){
-		document.querySelector(".preloader").style.display = "none";
+		document.querySelector(".loader").style.display = "none";
 	},1000)
 })
 
